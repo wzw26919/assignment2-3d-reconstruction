@@ -10,6 +10,6 @@ header with the course assignment title. It makes no ICLR publication claim.
 Build from the repository root:
   python scripts/build_iclr_report.py --tectonic /path/to/tectonic
 Or compile docs/latex/report.tex with a standard LaTeX distribution.
-Group number and repository URL remain editable in the generated PDF.
+Group number and repository URL are typeset as ordinary text in the PDF.
 Author names and the Individual Contributions section are generated from
 configs/team.json.

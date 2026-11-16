@@ -89,21 +89,17 @@ def main():
     reader = PdfReader(args.out/'report.pdf')
     writer = PdfWriter()
     writer.clone_document_from_reader(reader)
-    fields = reader.get_fields() or {}
-    values = {name: field.get('/V', '') for name, field in fields.items()}
-    if set(values) != {'groupnumber', 'repositoryurl'}:
-        raise ValueError('Expected group-number and repository fields')
-    writer.update_page_form_field_values(None, values, auto_regenerate=False)
     with final.open('wb') as handle:
         writer.write(handle)
     reopened = PdfReader(final)
-    assert reopened.get_fields()['repositoryurl']['/V'] == repository
-    assert reopened.get_fields()['groupnumber']['/V'] == group_number
+    assert not reopened.get_fields()
+    first_page = reopened.pages[0].extract_text()
+    assert repository in first_page
+    assert 'Group number: ' + group_number in first_page
     for page in reopened.pages:
         for annotation in page.get('/Annots', []):
             widget = annotation.get_object()
-            if widget.get('/Subtype') == '/Widget':
-                assert widget.get('/AP', {}).get('/N')
+            assert widget.get('/Subtype') != '/Widget'
     print(final)
 
 

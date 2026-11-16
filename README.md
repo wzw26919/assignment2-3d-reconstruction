@@ -74,7 +74,7 @@ python scripts/build_report.py
 python scripts/finalize_bundle.py
 ```
 
-The report uses the official ICLR 2027 LaTeX style in named-author mode, with the conference publication header replaced by the coursework title. The first page lists the five authors, and the Individual Contributions section contains their responsibilities. Group number 2 and the GitHub URL are filled in and remain editable. The public repository is https://github.com/wzw26919/assignment2-3d-reconstruction. Course-platform submission remains with the group.
+The report uses the official ICLR 2027 LaTeX style in named-author mode, with the conference publication header replaced by the coursework title. The first page lists the five authors, and the Individual Contributions section contains their responsibilities. Group number 2 and the GitHub URL are typeset as ordinary text. The public repository is https://github.com/wzw26919/assignment2-3d-reconstruction. Course-platform submission remains with the group.
 
 The paper source is in `docs/latex/`. Build the ICLR report from the repository root with `python scripts/build_iclr_report.py --tectonic /path/to/tectonic`, or compile `docs/latex/report.tex` with a standard LaTeX distribution. The original ReportLab builder remains available as an alternative report layout.
 

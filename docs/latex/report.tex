@@ -16,11 +16,9 @@
 We implement and evaluate an image-to-3D reconstruction pipeline on ten textured objects retained by Assignment 1. The pipeline combines calibrated multi-view image generation, SIFT feature matching, COLMAP camera estimation, and Nerfstudio Splatfacto, an implementation of 3D Gaussian Splatting (3DGS). All ten known-camera reconstructions produce model-rendered orbit animations and held-out image evaluations, with mean foreground PSNR of 30.585 dB. Four of ten COLMAP attempts meet an 80\% registration gate, with pose accuracy varying among fully registered objects. A complete estimated-camera pipeline is additionally demonstrated on Cake. Twelve controlled runs on three preselected objects compare view count, input resolution, and training duration. Fewer views yield the largest mean foreground-PSNR decrease in this subset (5.020 dB). Code, complete verified correspondences, animations, commands, and protocol-specific metrics accompany the report.
 \end{abstract}
 
-\begin{Form}
 \noindent\textbf{Submission information.}\par\smallskip
-\TextField[name=groupnumber,width=0.77\linewidth,height=0.17in,charsize=9pt,value={2},bordercolor={0.65 0.65 0.65}]{Group number: }\par\smallskip
-\TextField[name=repositoryurl,width=0.74\linewidth,height=0.17in,charsize=8pt,value={https://github.com/wzw26919/assignment2-3d-reconstruction},bordercolor={0.65 0.65 0.65}]{GitHub repository: }\par\smallskip
-\end{Form}
+\noindent\textbf{Group number:} 2\par\smallskip
+\noindent\textbf{GitHub repository:} {\urlstyle{same}\url{https://github.com/wzw26919/assignment2-3d-reconstruction}}\par\smallskip
 
 \section{Introduction}
 The assignment asks for a complete pipeline from images to a reconstructed 3D representation and novel-view rendering, using objects retained by the preceding data-cleaning assignment. In addition to attractive animations, a useful pipeline must preserve evidence of image correspondences, account for camera-estimation failures, and distinguish measured effects from plausible explanations.
