@@ -6,7 +6,7 @@ This repository implements multi-view capture, verified image matching, camera e
 
 All ten known-camera 3DGS reconstructions, their animations, and held-out evaluations are complete. There are also twelve controlled runs and one complete COLMAP-camera Cake pilot. COLMAP meets the predefined 80% registration gate on 4/10 objects; the primary animations must not be described as ten successful image-only camera recoveries. Mean primary foreground PSNR is 30.585 dB. See the [report](assignment2_report.pdf), [findings](docs/experimental_findings.md), and [results table](results.csv).
 
-Data access is verified by `artifacts/afs_probe.json`. The selected UIDs and Assignment 1 cleaning rows are recorded in `configs/objects.json`. Group number, actual member names, and individual contributions still need to be filled in `configs/team.json` and the report. Coursework has not been submitted to the course platform.
+Data access is verified by `artifacts/afs_probe.json`. The selected UIDs and Assignment 1 cleaning rows are recorded in `configs/objects.json`. The five group members and their contributions are recorded in `configs/team.json` and the report. The group number remains to be filled in before course-platform submission.
 
 ## Ten reconstructed objects
 
@@ -74,7 +74,7 @@ python scripts/build_report.py
 python scripts/finalize_bundle.py
 ```
 
-The report uses the official ICLR 2027 LaTeX style in named-author mode, with the conference publication header replaced by the coursework title. It has editable fields for the group number, names, individual contributions and GitHub URL. Complete the group fields before submission. The public repository is https://github.com/wzw26919/assignment2-3d-reconstruction. Coursework has not been submitted to the course platform.
+The report uses the official ICLR 2027 LaTeX style in named-author mode, with the conference publication header replaced by the coursework title. The first page lists the five authors, and the Individual Contributions section contains their responsibilities. Group number and GitHub URL remain editable; fill in the group number before submission. The public repository is https://github.com/wzw26919/assignment2-3d-reconstruction. Course-platform submission remains with the group.
 
 The paper source is in `docs/latex/`. Build the ICLR report from the repository root with `python scripts/build_iclr_report.py --tectonic /path/to/tectonic`, or compile `docs/latex/report.tex` with a standard LaTeX distribution. The original ReportLab builder remains available as an alternative report layout.
 

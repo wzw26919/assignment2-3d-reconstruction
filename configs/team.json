@@ -1,5 +1,26 @@
 {
   "group_number": null,
-  "members": [],
+  "members": [
+    {
+      "name": "Wenzhe Wang",
+      "contribution": "Responsible for project design and code development, integrating Blender, COLMAP, and Nerfstudio Splatfacto into a unified workflow, model training and debugging, performance optimization, result analysis, and report refinement."
+    },
+    {
+      "name": "Wenzhan Li",
+      "contribution": "Responsible for Objaverse dataset processing, 3D model selection, Blender multi-view image generation, and camera parameter configuration."
+    },
+    {
+      "name": "Yaoliang Bian",
+      "contribution": "Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization."
+    },
+    {
+      "name": "Qifan Wang",
+      "contribution": "Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation."
+    },
+    {
+      "name": "Jingyuan Wang",
+      "contribution": "Responsible for ablation experiments, performance evaluation using PSNR, SSIM, and LPIPS, result visualization, and report preparation."
+    }
+  ],
   "repository_url": "https://github.com/wzw26919/assignment2-3d-reconstruction"
 }

@@ -7,7 +7,6 @@ Requires Tectonic (or compile docs/latex/report.tex with another TeX engine).
 import argparse
 import csv
 import json
-import shutil
 import subprocess
 from pathlib import Path
 
@@ -69,6 +68,14 @@ def main():
     template = template.replace('@@RESULT_ROWS@@', '\n'.join(table_rows))
     template = template.replace('@@GALLERY@@', ''.join(gallery))
     template = template.replace('@@REPOSITORY@@', escape(repository))
+    members = team.get('members', [])
+    author_lines = [', '.join(escape(m['name']) for m in members[:3]),
+                    ', '.join(escape(m['name']) for m in members[3:])]
+    template = template.replace('@@AUTHORS@@', r'\\'.join(line for line in author_lines if line))
+    template = template.replace('@@AUTHOR_METADATA@@', ', '.join(escape(m['name']) for m in members))
+    template = template.replace('@@CONTRIBUTIONS@@', '\n'.join(
+        r'\item \textbf{' + escape(m['name']) + ':} ' + escape(m['contribution'])
+        for m in members))
     (source/'report.tex').write_text(template, encoding='utf-8')
     args.out.mkdir(parents=True, exist_ok=True)
     command = [str(Path(args.tectonic).resolve()) if Path(args.tectonic).exists() else args.tectonic,
@@ -80,8 +87,8 @@ def main():
     writer.clone_document_from_reader(reader)
     fields = reader.get_fields() or {}
     values = {name: field.get('/V', '') for name, field in fields.items()}
-    if set(values) != {'groupnumber', 'repositoryurl', 'membernames', 'membercontributions'}:
-        raise ValueError('Expected four editable submission fields')
+    if set(values) != {'groupnumber', 'repositoryurl'}:
+        raise ValueError('Expected group-number and repository fields')
     writer.update_page_form_field_values(None, values, auto_regenerate=False)
     with final.open('wb') as handle:
         writer.write(handle)

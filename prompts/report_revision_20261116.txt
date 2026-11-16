@@ -1,0 +1,9 @@
+User request, transcribed verbatim from the active conversation on 2026-11-16:
+
+删去报告里“xxx not xxx”这样的表述，不需要这样的防御性表述，检查之后删去所有这样的表述，另外把分工写一下：**Individual Contributions**
+
+1. **Wenzhe Wang:** Responsible for project design and code development, integrating Blender, COLMAP, and Nerfstudio Splatfacto into a unified workflow, model training and debugging, performance optimization, result analysis, and report refinement.
+2. **Wenzhan Li:** Responsible for Objaverse dataset processing, 3D model selection, Blender multi-view image generation, and camera parameter configuration.
+3. **Yaoliang Bian:** Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization.
+4. **Qifan Wang:** Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation.
+5. **Jingyuan Wang:** Responsible for ablation experiments, performance evaluation using PSNR, SSIM, and LPIPS, result visualization, and report preparation.
