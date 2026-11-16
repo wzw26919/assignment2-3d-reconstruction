@@ -26,6 +26,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--tectonic', default='tectonic')
     parser.add_argument('--out', type=Path, default=PROJECT/'output/pdf')
+    parser.add_argument('--filename', default='assignment2_report.pdf')
     args = parser.parse_args()
     source = PROJECT/'docs/latex'
     source.mkdir(parents=True, exist_ok=True)
@@ -68,10 +69,13 @@ def main():
     template = template.replace('@@RESULT_ROWS@@', '\n'.join(table_rows))
     template = template.replace('@@GALLERY@@', ''.join(gallery))
     template = template.replace('@@REPOSITORY@@', escape(repository))
+    group_number = str(team.get('group_number') or '')
+    template = template.replace('@@GROUP_NUMBER@@', escape(group_number))
     members = team.get('members', [])
     author_lines = [', '.join(escape(m['name']) for m in members[:3]),
                     ', '.join(escape(m['name']) for m in members[3:])]
-    template = template.replace('@@AUTHORS@@', r'\\'.join(line for line in author_lines if line))
+    template = template.replace('@@AUTHORS@@', r'\\'.join(
+        r'\textbf{' + line + '}' for line in author_lines if line))
     template = template.replace('@@AUTHOR_METADATA@@', ', '.join(escape(m['name']) for m in members))
     template = template.replace('@@CONTRIBUTIONS@@', '\n'.join(
         r'\item \textbf{' + escape(m['name']) + ':} ' + escape(m['contribution'])
@@ -81,7 +85,7 @@ def main():
     command = [str(Path(args.tectonic).resolve()) if Path(args.tectonic).exists() else args.tectonic,
                '--keep-logs', '--outdir', str(args.out.resolve()), 'report.tex']
     subprocess.run(command, cwd=source, check=True)
-    final = args.out/'assignment2_report.pdf'
+    final = args.out/args.filename
     reader = PdfReader(args.out/'report.pdf')
     writer = PdfWriter()
     writer.clone_document_from_reader(reader)
@@ -94,6 +98,7 @@ def main():
         writer.write(handle)
     reopened = PdfReader(final)
     assert reopened.get_fields()['repositoryurl']['/V'] == repository
+    assert reopened.get_fields()['groupnumber']['/V'] == group_number
     for page in reopened.pages:
         for annotation in page.get('/Annots', []):
             widget = annotation.get_object()

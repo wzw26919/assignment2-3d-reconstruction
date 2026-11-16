@@ -2,8 +2,8 @@
 
 ## Submission information
 
-Group number: **TO BE FILLED BY THE GROUP**  
-Group members: Wenzhe Wang, Wenzhan Li, Yaoliang Bian, Qifan Wang, Jingyuan Wang  
+Group number: **2**  
+Group members: Wenzhe Wang, Qifan Wang, Wenzhan Li, Yaoliang Bian, Jingyuan Wang  
 GitHub repository: https://github.com/wzw26919/assignment2-3d-reconstruction
 
 ## Task and data
@@ -67,9 +67,9 @@ Codex assisted with pipeline implementation, environment setup, tests and docume
 ## Individual Contributions
 
 1. **Wenzhe Wang:** Responsible for project design and code development, integrating Blender, COLMAP, and Nerfstudio Splatfacto into a unified workflow, model training and debugging, performance optimization, result analysis, and report refinement.
-2. **Wenzhan Li:** Responsible for Objaverse dataset processing, 3D model selection, Blender multi-view image generation, and camera parameter configuration.
-3. **Yaoliang Bian:** Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization.
-4. **Qifan Wang:** Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation.
+2. **Qifan Wang:** Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation.
+3. **Wenzhan Li:** Responsible for Objaverse dataset processing, 3D model selection, Blender multi-view image generation, and camera parameter configuration.
+4. **Yaoliang Bian:** Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization.
 5. **Jingyuan Wang:** Responsible for ablation experiments, performance evaluation using PSNR, SSIM, and LPIPS, result visualization, and report preparation.
 
 ## References

@@ -1,9 +1,13 @@
 {
-  "group_number": null,
+  "group_number": 2,
   "members": [
     {
       "name": "Wenzhe Wang",
       "contribution": "Responsible for project design and code development, integrating Blender, COLMAP, and Nerfstudio Splatfacto into a unified workflow, model training and debugging, performance optimization, result analysis, and report refinement."
+    },
+    {
+      "name": "Qifan Wang",
+      "contribution": "Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation."
     },
     {
       "name": "Wenzhan Li",
@@ -12,10 +16,6 @@
     {
       "name": "Yaoliang Bian",
       "contribution": "Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization."
-    },
-    {
-      "name": "Qifan Wang",
-      "contribution": "Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation."
     },
     {
       "name": "Jingyuan Wang",

@@ -6,8 +6,8 @@
 \graphicspath{{../../}}
 \iclrfinalcopy
 \title{Image-Based 3D Reconstruction\\and Rendering with Gaussian Splatting\\on Ten Objaverse Objects}
-\author{Wenzhe Wang, Wenzhan Li, Yaoliang Bian\\Qifan Wang, Jingyuan Wang\\Assignment 2 --- 3D Reconstruction and Rendering}
-\hypersetup{pdftitle={Assignment 2: 3D Reconstruction and Rendering},pdfauthor={Wenzhe Wang, Wenzhan Li, Yaoliang Bian, Qifan Wang, Jingyuan Wang}}
+\author{\textbf{Wenzhe Wang, Qifan Wang, Wenzhan Li}\\\textbf{Yaoliang Bian, Jingyuan Wang}\\Assignment 2 --- 3D Reconstruction and Rendering}
+\hypersetup{pdftitle={Assignment 2: 3D Reconstruction and Rendering},pdfauthor={Wenzhe Wang, Qifan Wang, Wenzhan Li, Yaoliang Bian, Jingyuan Wang}}
 \begin{document}
 \maketitle
 \lhead{Assignment 2 --- 3D Reconstruction and Rendering}
@@ -18,7 +18,7 @@ We implement and evaluate an image-to-3D reconstruction pipeline on ten textured
 
 \begin{Form}
 \noindent\textbf{Submission information.}\par\smallskip
-\TextField[name=groupnumber,width=0.77\linewidth,height=0.17in,charsize=9pt,bordercolor={0.65 0.65 0.65}]{Group number: }\par\smallskip
+\TextField[name=groupnumber,width=0.77\linewidth,height=0.17in,charsize=9pt,value={2},bordercolor={0.65 0.65 0.65}]{Group number: }\par\smallskip
 \TextField[name=repositoryurl,width=0.74\linewidth,height=0.17in,charsize=8pt,value={https://github.com/wzw26919/assignment2-3d-reconstruction},bordercolor={0.65 0.65 0.65}]{GitHub repository: }\par\smallskip
 \end{Form}
 
@@ -148,9 +148,9 @@ Source models retain their original author and license attribution. Codex assist
 \section{Individual Contributions}
 \begin{enumerate}
 \item \textbf{Wenzhe Wang:} Responsible for project design and code development, integrating Blender, COLMAP, and Nerfstudio Splatfacto into a unified workflow, model training and debugging, performance optimization, result analysis, and report refinement.
+\item \textbf{Qifan Wang:} Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation.
 \item \textbf{Wenzhan Li:} Responsible for Objaverse dataset processing, 3D model selection, Blender multi-view image generation, and camera parameter configuration.
 \item \textbf{Yaoliang Bian:} Responsible for SIFT feature extraction and matching, COLMAP camera pose estimation, and feature correspondence visualization.
-\item \textbf{Qifan Wang:} Contributed to 3D Gaussian Splatting model training, novel-view rendering, reconstruction quality inspection, and animation generation.
 \item \textbf{Jingyuan Wang:} Responsible for ablation experiments, performance evaluation using PSNR, SSIM, and LPIPS, result visualization, and report preparation.
 \end{enumerate}
 
