@@ -1,0 +1,437 @@
+I20261115 13:18:53.675041 20785 misc.cc:198] 
+==============================================================================
+Feature extraction
+==============================================================================
+I20261115 13:18:53.911700 20798 feature_extraction.cc:254] Processed file [1/72]
+I20261115 13:18:53.912232 20798 feature_extraction.cc:257]   Name:            r0_000.png
+I20261115 13:18:53.912405 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:53.912647 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:53.919651 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:53.920375 20798 feature_extraction.cc:302]   Features:        368
+I20261115 13:18:53.969565 20798 feature_extraction.cc:254] Processed file [2/72]
+I20261115 13:18:53.970182 20798 feature_extraction.cc:257]   Name:            r0_001.png
+I20261115 13:18:53.970917 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:53.971603 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:53.972347 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:53.973098 20798 feature_extraction.cc:302]   Features:        350
+I20261115 13:18:54.004670 20798 feature_extraction.cc:254] Processed file [3/72]
+I20261115 13:18:54.005229 20798 feature_extraction.cc:257]   Name:            r0_002.png
+I20261115 13:18:54.005754 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.006421 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.006981 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.007848 20798 feature_extraction.cc:302]   Features:        369
+I20261115 13:18:54.047161 20798 feature_extraction.cc:254] Processed file [4/72]
+I20261115 13:18:54.047580 20798 feature_extraction.cc:257]   Name:            r0_003.png
+I20261115 13:18:54.048283 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.048660 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.049171 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.049881 20798 feature_extraction.cc:302]   Features:        401
+I20261115 13:18:54.068907 20798 feature_extraction.cc:254] Processed file [5/72]
+I20261115 13:18:54.069042 20798 feature_extraction.cc:257]   Name:            r0_004.png
+I20261115 13:18:54.069219 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.069319 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.069411 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.069548 20798 feature_extraction.cc:302]   Features:        346
+I20261115 13:18:54.092299 20798 feature_extraction.cc:254] Processed file [6/72]
+I20261115 13:18:54.092496 20798 feature_extraction.cc:257]   Name:            r0_005.png
+I20261115 13:18:54.092658 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.092816 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.092976 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.093103 20798 feature_extraction.cc:302]   Features:        251
+I20261115 13:18:54.115898 20798 feature_extraction.cc:254] Processed file [7/72]
+I20261115 13:18:54.116544 20798 feature_extraction.cc:257]   Name:            r0_007.png
+I20261115 13:18:54.116778 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.117861 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.118578 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.119079 20798 feature_extraction.cc:302]   Features:        303
+I20261115 13:18:54.166321 20798 feature_extraction.cc:254] Processed file [8/72]
+I20261115 13:18:54.166975 20798 feature_extraction.cc:257]   Name:            r0_006.png
+I20261115 13:18:54.167686 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.168582 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.169054 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.169534 20798 feature_extraction.cc:302]   Features:        271
+I20261115 13:18:54.190106 20798 feature_extraction.cc:254] Processed file [9/72]
+I20261115 13:18:54.190292 20798 feature_extraction.cc:257]   Name:            r0_008.png
+I20261115 13:18:54.190661 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.190788 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.191198 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.191468 20798 feature_extraction.cc:302]   Features:        374
+I20261115 13:18:54.222615 20798 feature_extraction.cc:254] Processed file [10/72]
+I20261115 13:18:54.222853 20798 feature_extraction.cc:257]   Name:            r0_009.png
+I20261115 13:18:54.223287 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.223539 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.223635 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.223982 20798 feature_extraction.cc:302]   Features:        418
+I20261115 13:18:54.274914 20798 feature_extraction.cc:254] Processed file [11/72]
+I20261115 13:18:54.275614 20798 feature_extraction.cc:257]   Name:            r0_011.png
+I20261115 13:18:54.276463 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.277150 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.277915 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.278501 20798 feature_extraction.cc:302]   Features:        417
+I20261115 13:18:54.344023 20798 feature_extraction.cc:254] Processed file [12/72]
+I20261115 13:18:54.344882 20798 feature_extraction.cc:257]   Name:            r0_010.png
+I20261115 13:18:54.345423 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.346153 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.346951 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.347643 20798 feature_extraction.cc:302]   Features:        400
+I20261115 13:18:54.369534 20798 feature_extraction.cc:254] Processed file [13/72]
+I20261115 13:18:54.369619 20798 feature_extraction.cc:257]   Name:            r0_012.png
+I20261115 13:18:54.369735 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.369791 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.369849 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.369920 20798 feature_extraction.cc:302]   Features:        360
+I20261115 13:18:54.401149 20798 feature_extraction.cc:254] Processed file [14/72]
+I20261115 13:18:54.401444 20798 feature_extraction.cc:257]   Name:            r0_013.png
+I20261115 13:18:54.401902 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.402518 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.420574 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.420709 20798 feature_extraction.cc:302]   Features:        414
+I20261115 13:18:54.459288 20798 feature_extraction.cc:254] Processed file [15/72]
+I20261115 13:18:54.459415 20798 feature_extraction.cc:257]   Name:            r0_014.png
+I20261115 13:18:54.459501 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.459597 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.459726 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.459846 20798 feature_extraction.cc:302]   Features:        391
+I20261115 13:18:54.482604 20798 feature_extraction.cc:254] Processed file [16/72]
+I20261115 13:18:54.483215 20798 feature_extraction.cc:257]   Name:            r0_015.png
+I20261115 13:18:54.483536 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.483814 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.484459 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.484870 20798 feature_extraction.cc:302]   Features:        389
+I20261115 13:18:54.527256 20798 feature_extraction.cc:254] Processed file [17/72]
+I20261115 13:18:54.527741 20798 feature_extraction.cc:257]   Name:            r0_017.png
+I20261115 13:18:54.527901 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.528151 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.528584 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.529168 20798 feature_extraction.cc:302]   Features:        278
+I20261115 13:18:54.550459 20798 feature_extraction.cc:254] Processed file [18/72]
+I20261115 13:18:54.550544 20798 feature_extraction.cc:257]   Name:            r0_016.png
+I20261115 13:18:54.550609 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.550681 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.550760 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.550824 20798 feature_extraction.cc:302]   Features:        349
+I20261115 13:18:54.558396 20798 feature_extraction.cc:254] Processed file [19/72]
+I20261115 13:18:54.559116 20798 feature_extraction.cc:257]   Name:            r0_018.png
+I20261115 13:18:54.559768 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.560464 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.561038 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.561600 20798 feature_extraction.cc:302]   Features:        215
+I20261115 13:18:54.622934 20798 feature_extraction.cc:254] Processed file [20/72]
+I20261115 13:18:54.623499 20798 feature_extraction.cc:257]   Name:            r0_019.png
+I20261115 13:18:54.623761 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.624104 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.624495 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.624804 20798 feature_extraction.cc:302]   Features:        271
+I20261115 13:18:54.654186 20798 feature_extraction.cc:254] Processed file [21/72]
+I20261115 13:18:54.654544 20798 feature_extraction.cc:257]   Name:            r0_020.png
+I20261115 13:18:54.654736 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.655014 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.655529 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.655659 20798 feature_extraction.cc:302]   Features:        330
+I20261115 13:18:54.744846 20798 feature_extraction.cc:254] Processed file [22/72]
+I20261115 13:18:54.745606 20798 feature_extraction.cc:257]   Name:            r0_021.png
+I20261115 13:18:54.745790 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.746378 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.746933 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.747531 20798 feature_extraction.cc:302]   Features:        387
+I20261115 13:18:54.787981 20798 feature_extraction.cc:254] Processed file [23/72]
+I20261115 13:18:54.788353 20798 feature_extraction.cc:257]   Name:            r0_023.png
+I20261115 13:18:54.788537 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.788630 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.788723 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.788929 20798 feature_extraction.cc:302]   Features:        374
+I20261115 13:18:54.855726 20798 feature_extraction.cc:254] Processed file [24/72]
+I20261115 13:18:54.856388 20798 feature_extraction.cc:257]   Name:            r0_022.png
+I20261115 13:18:54.857443 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.857932 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.858605 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.859323 20798 feature_extraction.cc:302]   Features:        402
+I20261115 13:18:54.904803 20798 feature_extraction.cc:254] Processed file [25/72]
+I20261115 13:18:54.905380 20798 feature_extraction.cc:257]   Name:            r1_000.png
+I20261115 13:18:54.920327 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.920567 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.920713 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.921030 20798 feature_extraction.cc:302]   Features:        423
+I20261115 13:18:54.942682 20798 feature_extraction.cc:254] Processed file [26/72]
+I20261115 13:18:54.942792 20798 feature_extraction.cc:257]   Name:            r1_001.png
+I20261115 13:18:54.942867 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.942975 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.943056 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.943121 20798 feature_extraction.cc:302]   Features:        437
+I20261115 13:18:54.988020 20798 feature_extraction.cc:254] Processed file [27/72]
+I20261115 13:18:54.988933 20798 feature_extraction.cc:257]   Name:            r1_002.png
+I20261115 13:18:54.989449 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:54.989974 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:54.990698 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:54.991504 20798 feature_extraction.cc:302]   Features:        434
+I20261115 13:18:55.061607 20798 feature_extraction.cc:254] Processed file [28/72]
+I20261115 13:18:55.062305 20798 feature_extraction.cc:257]   Name:            r1_003.png
+I20261115 13:18:55.063064 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.063890 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.064486 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.065303 20798 feature_extraction.cc:302]   Features:        385
+I20261115 13:18:55.099498 20798 feature_extraction.cc:254] Processed file [29/72]
+I20261115 13:18:55.099696 20798 feature_extraction.cc:257]   Name:            r1_004.png
+I20261115 13:18:55.099905 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.100129 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.100247 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.100400 20798 feature_extraction.cc:302]   Features:        399
+I20261115 13:18:55.169926 20798 feature_extraction.cc:254] Processed file [30/72]
+I20261115 13:18:55.170568 20798 feature_extraction.cc:257]   Name:            r1_005.png
+I20261115 13:18:55.171211 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.171877 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.172467 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.173504 20798 feature_extraction.cc:302]   Features:        336
+I20261115 13:18:55.200560 20798 feature_extraction.cc:254] Processed file [31/72]
+I20261115 13:18:55.201027 20798 feature_extraction.cc:257]   Name:            r1_006.png
+I20261115 13:18:55.201148 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.201210 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.201361 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.201498 20798 feature_extraction.cc:302]   Features:        282
+I20261115 13:18:55.240111 20798 feature_extraction.cc:254] Processed file [32/72]
+I20261115 13:18:55.240276 20798 feature_extraction.cc:257]   Name:            r1_007.png
+I20261115 13:18:55.240366 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.240433 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.240569 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.240657 20798 feature_extraction.cc:302]   Features:        328
+I20261115 13:18:55.266047 20798 feature_extraction.cc:254] Processed file [33/72]
+I20261115 13:18:55.266448 20798 feature_extraction.cc:257]   Name:            r1_008.png
+I20261115 13:18:55.266702 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.267088 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.267210 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.267567 20798 feature_extraction.cc:302]   Features:        382
+I20261115 13:18:55.296106 20798 feature_extraction.cc:254] Processed file [34/72]
+I20261115 13:18:55.296284 20798 feature_extraction.cc:257]   Name:            r1_009.png
+I20261115 13:18:55.296473 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.296627 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.296753 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.296860 20798 feature_extraction.cc:302]   Features:        469
+I20261115 13:18:55.356113 20798 feature_extraction.cc:254] Processed file [35/72]
+I20261115 13:18:55.356698 20798 feature_extraction.cc:257]   Name:            r1_010.png
+I20261115 13:18:55.356927 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.357595 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.358021 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.358352 20798 feature_extraction.cc:302]   Features:        515
+I20261115 13:18:55.392140 20798 feature_extraction.cc:254] Processed file [36/72]
+I20261115 13:18:55.392594 20798 feature_extraction.cc:257]   Name:            r1_011.png
+I20261115 13:18:55.393464 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.393832 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.394393 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.394942 20798 feature_extraction.cc:302]   Features:        490
+I20261115 13:18:55.438977 20798 feature_extraction.cc:254] Processed file [37/72]
+I20261115 13:18:55.439481 20798 feature_extraction.cc:257]   Name:            r1_012.png
+I20261115 13:18:55.439918 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.440094 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.440303 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.441186 20798 feature_extraction.cc:302]   Features:        439
+I20261115 13:18:55.480159 20798 feature_extraction.cc:254] Processed file [38/72]
+I20261115 13:18:55.480849 20798 feature_extraction.cc:257]   Name:            r1_013.png
+I20261115 13:18:55.481514 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.481808 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.482900 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.483728 20798 feature_extraction.cc:302]   Features:        476
+I20261115 13:18:55.537668 20798 feature_extraction.cc:254] Processed file [39/72]
+I20261115 13:18:55.538128 20798 feature_extraction.cc:257]   Name:            r1_015.png
+I20261115 13:18:55.538534 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.538781 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.539206 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.539656 20798 feature_extraction.cc:302]   Features:        408
+I20261115 13:18:55.566432 20798 feature_extraction.cc:254] Processed file [40/72]
+I20261115 13:18:55.567374 20798 feature_extraction.cc:257]   Name:            r1_014.png
+I20261115 13:18:55.568287 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.568958 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.569464 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.570364 20798 feature_extraction.cc:302]   Features:        457
+I20261115 13:18:55.628535 20798 feature_extraction.cc:254] Processed file [41/72]
+I20261115 13:18:55.628865 20798 feature_extraction.cc:257]   Name:            r1_016.png
+I20261115 13:18:55.629060 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.629628 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.630033 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.630425 20798 feature_extraction.cc:302]   Features:        378
+I20261115 13:18:55.660238 20798 feature_extraction.cc:254] Processed file [42/72]
+I20261115 13:18:55.660580 20798 feature_extraction.cc:257]   Name:            r1_017.png
+I20261115 13:18:55.660826 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.661091 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.661468 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.661890 20798 feature_extraction.cc:302]   Features:        316
+I20261115 13:18:55.697026 20798 feature_extraction.cc:254] Processed file [43/72]
+I20261115 13:18:55.697379 20798 feature_extraction.cc:257]   Name:            r1_018.png
+I20261115 13:18:55.698002 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.698568 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.699291 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.700269 20798 feature_extraction.cc:302]   Features:        261
+I20261115 13:18:55.746234 20798 feature_extraction.cc:254] Processed file [44/72]
+I20261115 13:18:55.746877 20798 feature_extraction.cc:257]   Name:            r1_020.png
+I20261115 13:18:55.747538 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.747939 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.748417 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.748663 20798 feature_extraction.cc:302]   Features:        385
+I20261115 13:18:55.792590 20798 feature_extraction.cc:254] Processed file [45/72]
+I20261115 13:18:55.793391 20798 feature_extraction.cc:257]   Name:            r1_019.png
+I20261115 13:18:55.793965 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.794364 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.794762 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.795322 20798 feature_extraction.cc:302]   Features:        298
+I20261115 13:18:55.850396 20798 feature_extraction.cc:254] Processed file [46/72]
+I20261115 13:18:55.850558 20798 feature_extraction.cc:257]   Name:            r1_021.png
+I20261115 13:18:55.851034 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.851140 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.851269 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.851401 20798 feature_extraction.cc:302]   Features:        429
+I20261115 13:18:55.942471 20798 feature_extraction.cc:254] Processed file [47/72]
+I20261115 13:18:55.942924 20798 feature_extraction.cc:257]   Name:            r1_022.png
+I20261115 13:18:55.943025 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:55.943109 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:55.943162 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:55.943236 20798 feature_extraction.cc:302]   Features:        417
+I20261115 13:18:56.358783 20798 feature_extraction.cc:254] Processed file [48/72]
+I20261115 13:18:56.358920 20798 feature_extraction.cc:257]   Name:            r1_023.png
+I20261115 13:18:56.359059 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.359172 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.359277 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.359375 20798 feature_extraction.cc:302]   Features:        406
+I20261115 13:18:56.395711 20798 feature_extraction.cc:254] Processed file [49/72]
+I20261115 13:18:56.396188 20798 feature_extraction.cc:257]   Name:            r2_000.png
+I20261115 13:18:56.396386 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.396543 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.396921 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.397478 20798 feature_extraction.cc:302]   Features:        520
+I20261115 13:18:56.433633 20798 feature_extraction.cc:254] Processed file [50/72]
+I20261115 13:18:56.434159 20798 feature_extraction.cc:257]   Name:            r2_001.png
+I20261115 13:18:56.434731 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.435497 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.436375 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.436951 20798 feature_extraction.cc:302]   Features:        520
+I20261115 13:18:56.459590 20798 feature_extraction.cc:254] Processed file [51/72]
+I20261115 13:18:56.459707 20798 feature_extraction.cc:257]   Name:            r2_003.png
+I20261115 13:18:56.459864 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.460001 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.460069 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.460197 20798 feature_extraction.cc:302]   Features:        509
+I20261115 13:18:56.493371 20798 feature_extraction.cc:254] Processed file [52/72]
+I20261115 13:18:56.493971 20798 feature_extraction.cc:257]   Name:            r2_002.png
+I20261115 13:18:56.494156 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.494870 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.495556 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.496127 20798 feature_extraction.cc:302]   Features:        551
+I20261115 13:18:56.552946 20798 feature_extraction.cc:254] Processed file [53/72]
+I20261115 13:18:56.553056 20798 feature_extraction.cc:257]   Name:            r2_004.png
+I20261115 13:18:56.553174 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.553246 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.553335 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.553432 20798 feature_extraction.cc:302]   Features:        477
+I20261115 13:18:56.576267 20798 feature_extraction.cc:254] Processed file [54/72]
+I20261115 13:18:56.576363 20798 feature_extraction.cc:257]   Name:            r2_005.png
+I20261115 13:18:56.576428 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.576577 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.576851 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.576936 20798 feature_extraction.cc:302]   Features:        462
+I20261115 13:18:56.642167 20798 feature_extraction.cc:254] Processed file [55/72]
+I20261115 13:18:56.642472 20798 feature_extraction.cc:257]   Name:            r2_006.png
+I20261115 13:18:56.642769 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.642952 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.643169 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.645598 20798 feature_extraction.cc:302]   Features:        464
+I20261115 13:18:56.668289 20798 feature_extraction.cc:254] Processed file [56/72]
+I20261115 13:18:56.668555 20798 feature_extraction.cc:257]   Name:            r2_008.png
+I20261115 13:18:56.668649 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.669332 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.669570 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.670261 20798 feature_extraction.cc:302]   Features:        493
+I20261115 13:18:56.720099 20798 feature_extraction.cc:254] Processed file [57/72]
+I20261115 13:18:56.720243 20798 feature_extraction.cc:257]   Name:            r2_007.png
+I20261115 13:18:56.720561 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.720904 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.721374 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.721606 20798 feature_extraction.cc:302]   Features:        447
+I20261115 13:18:56.749035 20798 feature_extraction.cc:254] Processed file [58/72]
+I20261115 13:18:56.750473 20798 feature_extraction.cc:257]   Name:            r2_009.png
+I20261115 13:18:56.751197 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.751742 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.752417 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.752907 20798 feature_extraction.cc:302]   Features:        513
+I20261115 13:18:56.768548 20798 feature_extraction.cc:254] Processed file [59/72]
+I20261115 13:18:56.768726 20798 feature_extraction.cc:257]   Name:            r2_010.png
+I20261115 13:18:56.769064 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.769250 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.769449 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.769685 20798 feature_extraction.cc:302]   Features:        568
+I20261115 13:18:56.829605 20798 feature_extraction.cc:254] Processed file [60/72]
+I20261115 13:18:56.830186 20798 feature_extraction.cc:257]   Name:            r2_011.png
+I20261115 13:18:56.830698 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.831082 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.831596 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.832345 20798 feature_extraction.cc:302]   Features:        542
+I20261115 13:18:56.884168 20798 feature_extraction.cc:254] Processed file [61/72]
+I20261115 13:18:56.884889 20798 feature_extraction.cc:257]   Name:            r2_012.png
+I20261115 13:18:56.885429 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.886554 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.887372 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.887799 20798 feature_extraction.cc:302]   Features:        533
+I20261115 13:18:56.935047 20798 feature_extraction.cc:254] Processed file [62/72]
+I20261115 13:18:56.935563 20798 feature_extraction.cc:257]   Name:            r2_013.png
+I20261115 13:18:56.936164 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.936707 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.937201 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.937539 20798 feature_extraction.cc:302]   Features:        525
+I20261115 13:18:56.972873 20798 feature_extraction.cc:254] Processed file [63/72]
+I20261115 13:18:56.973443 20798 feature_extraction.cc:257]   Name:            r2_014.png
+I20261115 13:18:56.974048 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.974887 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.975409 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.975661 20798 feature_extraction.cc:302]   Features:        502
+I20261115 13:18:56.982375 20798 feature_extraction.cc:254] Processed file [64/72]
+I20261115 13:18:56.983124 20798 feature_extraction.cc:257]   Name:            r2_015.png
+I20261115 13:18:56.984157 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:56.984843 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:56.985440 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:56.986104 20798 feature_extraction.cc:302]   Features:        519
+I20261115 13:18:57.025969 20798 feature_extraction.cc:254] Processed file [65/72]
+I20261115 13:18:57.027000 20798 feature_extraction.cc:257]   Name:            r2_016.png
+I20261115 13:18:57.027850 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.028287 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.028566 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.028980 20798 feature_extraction.cc:302]   Features:        466
+I20261115 13:18:57.091720 20798 feature_extraction.cc:254] Processed file [66/72]
+I20261115 13:18:57.092732 20798 feature_extraction.cc:257]   Name:            r2_017.png
+I20261115 13:18:57.093601 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.094492 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.095219 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.096040 20798 feature_extraction.cc:302]   Features:        425
+I20261115 13:18:57.150686 20798 feature_extraction.cc:254] Processed file [67/72]
+I20261115 13:18:57.151504 20798 feature_extraction.cc:257]   Name:            r2_018.png
+I20261115 13:18:57.151721 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.152645 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.152999 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.153914 20798 feature_extraction.cc:302]   Features:        461
+I20261115 13:18:57.177913 20798 feature_extraction.cc:254] Processed file [68/72]
+I20261115 13:18:57.178841 20798 feature_extraction.cc:257]   Name:            r2_019.png
+I20261115 13:18:57.179636 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.180099 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.180877 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.181473 20798 feature_extraction.cc:302]   Features:        454
+I20261115 13:18:57.206872 20798 feature_extraction.cc:254] Processed file [69/72]
+I20261115 13:18:57.207499 20798 feature_extraction.cc:257]   Name:            r2_020.png
+I20261115 13:18:57.208211 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.208698 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.209391 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.210124 20798 feature_extraction.cc:302]   Features:        501
+I20261115 13:18:57.246735 20798 feature_extraction.cc:254] Processed file [70/72]
+I20261115 13:18:57.247661 20798 feature_extraction.cc:257]   Name:            r2_021.png
+I20261115 13:18:57.248586 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.249284 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.249837 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.250605 20798 feature_extraction.cc:302]   Features:        517
+I20261115 13:18:57.281000 20798 feature_extraction.cc:254] Processed file [71/72]
+I20261115 13:18:57.281512 20798 feature_extraction.cc:257]   Name:            r2_022.png
+I20261115 13:18:57.282155 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.282881 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.284142 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.284971 20798 feature_extraction.cc:302]   Features:        477
+I20261115 13:18:57.355862 20798 feature_extraction.cc:254] Processed file [72/72]
+I20261115 13:18:57.356566 20798 feature_extraction.cc:257]   Name:            r2_023.png
+I20261115 13:18:57.357065 20798 feature_extraction.cc:283]   Dimensions:      512 x 512
+I20261115 13:18:57.357807 20798 feature_extraction.cc:286]   Camera:          #1 - PINHOLE
+I20261115 13:18:57.358734 20798 feature_extraction.cc:289]   Focal Length:    614.40px
+I20261115 13:18:57.359697 20798 feature_extraction.cc:302]   Features:        523
+I20261115 13:18:57.396086 20785 timer.cc:91] Elapsed time: 0.062 [minutes]

@@ -1,0 +1,103 @@
+{
+  "definition": "GT pixels with max absolute RGB difference from white > 0.08; near-white object regions may be excluded.",
+  "mean_foreground_psnr": 28.37150624287807,
+  "mean_reference_full_psnr": 35.401688319924894,
+  "views": [
+    {
+      "index": 0,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r0_000.png",
+      "foreground_fraction": 0.14218902587890625,
+      "reference_full_psnr": 34.738839707566484,
+      "foreground_mse": 0.0021864445880055428,
+      "foreground_psnr": 26.6026152468929
+    },
+    {
+      "index": 1,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r0_006.png",
+      "foreground_fraction": 0.20265579223632812,
+      "reference_full_psnr": 32.49746329177437,
+      "foreground_mse": 0.002456223126500845,
+      "foreground_psnr": 26.097321838636994
+    },
+    {
+      "index": 2,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r0_012.png",
+      "foreground_fraction": 0.14360809326171875,
+      "reference_full_psnr": 32.88001310690653,
+      "foreground_mse": 0.002077286597341299,
+      "foreground_psnr": 26.825035809529915
+    },
+    {
+      "index": 3,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r0_018.png",
+      "foreground_fraction": 0.15561294555664062,
+      "reference_full_psnr": 33.91682906142704,
+      "foreground_mse": 0.0025408726651221514,
+      "foreground_psnr": 25.95017098908887
+    },
+    {
+      "index": 4,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r1_000.png",
+      "foreground_fraction": 0.13219451904296875,
+      "reference_full_psnr": 34.046515624537605,
+      "foreground_mse": 0.002624194836243987,
+      "foreground_psnr": 25.810039234258188
+    },
+    {
+      "index": 5,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r1_006.png",
+      "foreground_fraction": 0.18168258666992188,
+      "reference_full_psnr": 36.29318895294528,
+      "foreground_mse": 0.0011472710175439715,
+      "foreground_psnr": 29.403339774600536
+    },
+    {
+      "index": 6,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r1_012.png",
+      "foreground_fraction": 0.12545013427734375,
+      "reference_full_psnr": 34.603690790702416,
+      "foreground_mse": 0.0017469339072704315,
+      "foreground_psnr": 27.577235256127878
+    },
+    {
+      "index": 7,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r1_018.png",
+      "foreground_fraction": 0.21541595458984375,
+      "reference_full_psnr": 32.6632223815566,
+      "foreground_mse": 0.001650144113227725,
+      "foreground_psnr": 27.824781255761014
+    },
+    {
+      "index": 8,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r2_000.png",
+      "foreground_fraction": 0.16713714599609375,
+      "reference_full_psnr": 38.090557075627714,
+      "foreground_mse": 0.0009043272584676743,
+      "foreground_psnr": 30.43674378344165
+    },
+    {
+      "index": 9,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r2_006.png",
+      "foreground_fraction": 0.14085006713867188,
+      "reference_full_psnr": 39.60646526588257,
+      "foreground_mse": 0.0006656810292042792,
+      "foreground_psnr": 31.767338195381825
+    },
+    {
+      "index": 10,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r2_012.png",
+      "foreground_fraction": 0.15966415405273438,
+      "reference_full_psnr": 39.48715434967417,
+      "foreground_mse": 0.0006865340983495116,
+      "foreground_psnr": 31.63337887622749
+    },
+    {
+      "index": 11,
+      "file": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/processed/images/r2_018.png",
+      "foreground_fraction": 0.231231689453125,
+      "reference_full_psnr": 35.99632023049793,
+      "foreground_mse": 0.0008851003949530423,
+      "foreground_psnr": 30.530074654589615
+    }
+  ]
+}

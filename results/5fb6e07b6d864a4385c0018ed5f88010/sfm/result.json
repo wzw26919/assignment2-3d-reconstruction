@@ -1,0 +1,125 @@
+{
+  "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+  "commands": [
+    {
+      "command": [
+        "colmap",
+        "feature_extractor",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/images",
+        "--ImageReader.single_camera",
+        "1",
+        "--ImageReader.camera_model",
+        "PINHOLE",
+        "--SiftExtraction.use_gpu",
+        "0",
+        "--SiftExtraction.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 5.183738263323903
+    },
+    {
+      "command": [
+        "colmap",
+        "exhaustive_matcher",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/database.db",
+        "--SiftMatching.use_gpu",
+        "0",
+        "--SiftMatching.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 13.750866984948516
+    },
+    {
+      "command": [
+        "colmap",
+        "mapper",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/images",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/sparse",
+        "--Mapper.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 10.242658603936434
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/sparse/0",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/model_text_0",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 0.42135469429194927
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/sparse/1",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/model_text_1",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 2.325675731524825
+    }
+  ],
+  "matches": {
+    "images": 72,
+    "verified_pairs": 600,
+    "inliers_total": 31121,
+    "pair_count": 2556,
+    "plots": 8
+  },
+  "status": "complete",
+  "registered": 72,
+  "input_images": 72,
+  "registration_ratio": 1.0,
+  "model_path": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/sparse/1",
+  "camera_error": {
+    "matched_cameras": 72,
+    "center_rmse": 0.01784036990125065,
+    "center_median": 0.014121752698547752,
+    "rotation_median_degrees": 0.25359350079155457,
+    "alignment_scale": 1.037935841904508,
+    "alignment_rotation": [
+      [
+        0.7062123516163354,
+        -0.18860594832118746,
+        0.6824162297911663
+      ],
+      [
+        -0.7079905796889829,
+        -0.18313374046351266,
+        0.6820640528392476
+      ],
+      [
+        -0.0036679007868746856,
+        -0.9648263208275915,
+        -0.2628625441977408
+      ]
+    ],
+    "alignment_translation": [
+      -0.1092264792595558,
+      -0.024012599646949725,
+      1.0366020109395513
+    ],
+    "units": "Capture coordinates: source mesh longest side is 2 units."
+  }
+}

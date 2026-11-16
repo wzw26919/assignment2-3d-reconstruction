@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+*.pyc
+data/
+runs/
+outputs/
+*.ckpt
+*.glb
+*.zip
+.env
+submission/
+tmp/

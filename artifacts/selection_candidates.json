@@ -1,0 +1,562 @@
+{
+  "chair": [
+    {
+      "uid": "e1b3760e310d4a759cde3146edf40212",
+      "name": "Flower-chair",
+      "chunk": "000-006",
+      "license": "by",
+      "n_faces": "2406.0",
+      "clip_object": "0.99815917",
+      "tex_color_std": "45.147979736328125"
+    },
+    {
+      "uid": "5edf454b1b494386a33bb8ea680e7da9",
+      "name": "Test Chair",
+      "chunk": "000-010",
+      "license": "by",
+      "n_faces": "36040.0",
+      "clip_object": "0.9974415",
+      "tex_color_std": "2.0503714084625244"
+    },
+    {
+      "uid": "6326def64904470aac3546ac230f6a39",
+      "name": "3D Sketchbook 6 - [chair]",
+      "chunk": "000-007",
+      "license": "by",
+      "n_faces": "6432.0",
+      "clip_object": "0.99672866",
+      "tex_color_std": "3.4517831802368164"
+    },
+    {
+      "uid": "261d81ec28d845eba3bb7373768c60c5",
+      "name": "Monobloc - Plastic Garden Chair",
+      "chunk": "000-005",
+      "license": "by-sa",
+      "n_faces": "26560.0",
+      "clip_object": "0.996709",
+      "tex_color_std": "83.93773651123047"
+    },
+    {
+      "uid": "e193b47b584e4b978d71f7b68178e61c",
+      "name": "Wheel Chair",
+      "chunk": "000-005",
+      "license": "by",
+      "n_faces": "5552.0",
+      "clip_object": "0.99633265",
+      "tex_color_std": "59.63966751098633"
+    },
+    {
+      "uid": "6dafb66d838b4cdcaf247be07902ec34",
+      "name": "Chair",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "28214.0",
+      "clip_object": "0.9952072",
+      "tex_color_std": "75.86901092529297"
+    }
+  ],
+  "shoe": [
+    {
+      "uid": "8c1e9eaacd48441f9b356cd2d6c0ba63",
+      "name": "Character Dev Boot Asset",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "51648.0",
+      "clip_object": "0.9702145",
+      "tex_color_std": "44.16422653198242"
+    },
+    {
+      "uid": "165f13fab0b44f0ba6779b56e9792e7e",
+      "name": "Small shoe with HP Sprout Pro G2",
+      "chunk": "000-004",
+      "license": "by",
+      "n_faces": "23336.0",
+      "clip_object": "0.9259133",
+      "tex_color_std": "60.67360305786133"
+    },
+    {
+      "uid": "a267d906e4cf4d36bfe841c6cc9e698b",
+      "name": "shoe",
+      "chunk": "000-008",
+      "license": "by",
+      "n_faces": "33280.0",
+      "clip_object": "0.90450454",
+      "tex_color_std": "49.22148132324219"
+    },
+    {
+      "uid": "191bd8c1074149e183510bb154a8c6ca",
+      "name": "PB159 Shoe Low",
+      "chunk": "000-004",
+      "license": "by",
+      "n_faces": "6709.0",
+      "clip_object": "0.8803178",
+      "tex_color_std": "29.330541610717773"
+    },
+    {
+      "uid": "d1bb68aebb1b4532b026d8eb824d4c15",
+      "name": "PB158 Sneaker Low",
+      "chunk": "000-007",
+      "license": "by",
+      "n_faces": "10672.0",
+      "clip_object": "0.8464275",
+      "tex_color_std": "22.1393985748291"
+    },
+    {
+      "uid": "d53966f767e645199592a72d9897cce8",
+      "name": "Photogrammetry of my shoe",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "29040.0",
+      "clip_object": "0.83073413",
+      "tex_color_std": "23.098724365234375"
+    }
+  ],
+  "toy": [
+    {
+      "uid": "b5ba3da3c0514d938728c2773cb836d2",
+      "name": "Toy Car_free model",
+      "chunk": "000-002",
+      "license": "by",
+      "n_faces": "12164.0",
+      "clip_object": "0.99985605",
+      "tex_color_std": "8.516657829284668"
+    },
+    {
+      "uid": "f6b5a8bbe8a2421c93ae1754df38b4f5",
+      "name": "Toy Train",
+      "chunk": "000-005",
+      "license": "by",
+      "n_faces": "70250.0",
+      "clip_object": "0.99562705",
+      "tex_color_std": "48.5681266784668"
+    },
+    {
+      "uid": "d6e2017f3bd94c629c06167649910234",
+      "name": "toy police car",
+      "chunk": "000-008",
+      "license": "by",
+      "n_faces": "28578.0",
+      "clip_object": "0.98834443",
+      "tex_color_std": "63.55228805541992"
+    },
+    {
+      "uid": "04f51877ba25493d94d05f6086492f37",
+      "name": "Spinofan Freddy Plush",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "60744.0",
+      "clip_object": "0.9881948",
+      "tex_color_std": "59.4345703125"
+    },
+    {
+      "uid": "625f5246677540a5b6cbbfc29e134a5c",
+      "name": "Robot toy Model",
+      "chunk": "000-002",
+      "license": "by",
+      "n_faces": "9907.0",
+      "clip_object": "0.9815288",
+      "tex_color_std": "50.59627151489258"
+    },
+    {
+      "uid": "1f5ac9ee05cb47c7a579fbb694a94e5f",
+      "name": "EarthBound Teddy Bear",
+      "chunk": "000-009",
+      "license": "by",
+      "n_faces": "14912.0",
+      "clip_object": "0.98152834",
+      "tex_color_std": "29.024139404296875"
+    }
+  ],
+  "vehicle": [
+    {
+      "uid": "2fa42781568549c0861769cbf51d88fc",
+      "name": "BA-64 Armored Car",
+      "chunk": "000-009",
+      "license": "by",
+      "n_faces": "4618.0",
+      "clip_object": "0.99976283",
+      "tex_color_std": "25.3707275390625"
+    },
+    {
+      "uid": "35002d28d3fe4359be492bd444569744",
+      "name": "Low Poly Car",
+      "chunk": "000-005",
+      "license": "by",
+      "n_faces": "3028.0",
+      "clip_object": "0.99963725",
+      "tex_color_std": "43.227874755859375"
+    },
+    {
+      "uid": "b7f2ab48eb5d43189e7fe629dd39fe45",
+      "name": "Fectar Truck",
+      "chunk": "000-004",
+      "license": "by",
+      "n_faces": "6488.0",
+      "clip_object": "0.9996102",
+      "tex_color_std": "67.40242767333984"
+    },
+    {
+      "uid": "cf71cba057134f679ac35d5a7fdd0ec3",
+      "name": "VEHICLE  - Truck LowPoly",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "46248.0",
+      "clip_object": "0.99954295",
+      "tex_color_std": "43.5084114074707"
+    },
+    {
+      "uid": "c8e14659a449413cbddc074c932a575a",
+      "name": "Old Truck",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "20754.0",
+      "clip_object": "0.99900424",
+      "tex_color_std": "43.51573181152344"
+    },
+    {
+      "uid": "c34e9fdc36c1410895e784eecaed9487",
+      "name": "SWAT Truck",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "38928.0",
+      "clip_object": "0.9988084",
+      "tex_color_std": "43.54648971557617"
+    }
+  ],
+  "container": [
+    {
+      "uid": "873be92fc3a54d65bac955231029589b",
+      "name": "SUZILAJ@J-01 Flower Vase",
+      "chunk": "000-009",
+      "license": "by",
+      "n_faces": "3132.0",
+      "clip_object": "0.99115777",
+      "tex_color_std": "62.96164321899414"
+    },
+    {
+      "uid": "04eebb0543df40bda1034ddefe0047f8",
+      "name": "jug",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "15200.0",
+      "clip_object": "0.9874638",
+      "tex_color_std": "0.9315881729125977"
+    },
+    {
+      "uid": "ae49e732d4204f55b9b28fef53b05a89",
+      "name": "Old Japanese Teapot",
+      "chunk": "000-002",
+      "license": "by",
+      "n_faces": "15360.0",
+      "clip_object": "0.98271346",
+      "tex_color_std": "5.566061019897461"
+    },
+    {
+      "uid": "2e6b3ecd7b864bd8a8386bbc1d62e72d",
+      "name": "Teapot base",
+      "chunk": "000-010",
+      "license": "by",
+      "n_faces": "2596.0",
+      "clip_object": "0.9798342",
+      "tex_color_std": "0.7409799098968506"
+    },
+    {
+      "uid": "04bef8e589524b8c9d7a3bb206b206a8",
+      "name": "Low Poly, Old-style Flower Vase",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "6120.0",
+      "clip_object": "0.9717218",
+      "tex_color_std": "87.36666107177734"
+    },
+    {
+      "uid": "b4d83e78feab4a74a8912bf568f493cc",
+      "name": "short vase",
+      "chunk": "000-008",
+      "license": "by",
+      "n_faces": "2720.0",
+      "clip_object": "0.9373456",
+      "tex_color_std": "16.960437774658203"
+    }
+  ],
+  "camera": [
+    {
+      "uid": "2891f204385c429eb8ab3cbc28bdf36a",
+      "name": "Camera",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "100576.0",
+      "clip_object": "0.998693",
+      "tex_color_std": "66.20690155029297"
+    },
+    {
+      "uid": "f7aa2a3efd504f90973e2357ecc83964",
+      "name": "boring radio",
+      "chunk": "000-004",
+      "license": "by",
+      "n_faces": "15896.0",
+      "clip_object": "0.9972814",
+      "tex_color_std": "70.58263397216797"
+    },
+    {
+      "uid": "35794214c74b4198ba11e9612b280863",
+      "name": "Camera FED-5V",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "33283.0",
+      "clip_object": "0.994653",
+      "tex_color_std": "109.38300323486328"
+    },
+    {
+      "uid": "35313b460d1e4a67ae0eb44a6067a53b",
+      "name": "Polaroid Camera 600",
+      "chunk": "000-010",
+      "license": "by",
+      "n_faces": "60862.0",
+      "clip_object": "0.99352413",
+      "tex_color_std": "74.98050689697266"
+    },
+    {
+      "uid": "e5b7a512a7834420b3dfc5bc15d3bdf6",
+      "name": "Camera",
+      "chunk": "000-007",
+      "license": "by",
+      "n_faces": "2184.0",
+      "clip_object": "0.9925619",
+      "tex_color_std": "36.580848693847656"
+    },
+    {
+      "uid": "a96aae5c3e8240b68c2835001351435a",
+      "name": "Mentor Panorama - Old fashion studio camera",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "66552.0",
+      "clip_object": "0.9904019",
+      "tex_color_std": "49.161861419677734"
+    }
+  ],
+  "food": [
+    {
+      "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+      "name": "Cake",
+      "chunk": "000-006",
+      "license": "by",
+      "n_faces": "36742.0",
+      "clip_object": "0.99514216",
+      "tex_color_std": "44.752620697021484"
+    },
+    {
+      "uid": "93b7cae675a7460ba972d54ec03059c7",
+      "name": "Apple",
+      "chunk": "000-008",
+      "license": "by",
+      "n_faces": "107490.0",
+      "clip_object": "0.991199",
+      "tex_color_std": "20.69426727294922"
+    },
+    {
+      "uid": "b51c7c0437bb4fb48619b7052dafba4c",
+      "name": "Cake",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "33852.0",
+      "clip_object": "0.9837633",
+      "tex_color_std": "52.31550979614258"
+    },
+    {
+      "uid": "23e0f79370c343dbae615b093398e533",
+      "name": "Burger",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "33886.0",
+      "clip_object": "0.9720981",
+      "tex_color_std": "30.7996768951416"
+    },
+    {
+      "uid": "5ecfc69eb56b4a108328f3a3634784ae",
+      "name": "Bread 04",
+      "chunk": "000-007",
+      "license": "by",
+      "n_faces": "2920.0",
+      "clip_object": "0.9703865",
+      "tex_color_std": "38.86394500732422"
+    },
+    {
+      "uid": "16117c6784a74df2970bf5a4403afbd5",
+      "name": "Sarah Reed Final Project Cake",
+      "chunk": "000-005",
+      "license": "by",
+      "n_faces": "13000.0",
+      "clip_object": "0.96803534",
+      "tex_color_std": "94.0589599609375"
+    }
+  ],
+  "bag": [
+    {
+      "uid": "e0e9fb929170400c87c03c49a50ce315",
+      "name": "Garbage Bag",
+      "chunk": "000-006",
+      "license": "by",
+      "n_faces": "4096.0",
+      "clip_object": "0.9870014",
+      "tex_color_std": "3.2598307132720947"
+    },
+    {
+      "uid": "66739a7b7270425badbb02529e512dfb",
+      "name": "Colorful leather Bag",
+      "chunk": "000-007",
+      "license": "by",
+      "n_faces": "9999.0",
+      "clip_object": "0.9162622",
+      "tex_color_std": "38.00944900512695"
+    },
+    {
+      "uid": "bd8b3218695e42cea5290f113c630a1a",
+      "name": "BAG",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "19274.0",
+      "clip_object": "0.89374256",
+      "tex_color_std": "24.52555274963379"
+    },
+    {
+      "uid": "218e321b9ddf48858dbca1de0f87a42f",
+      "name": "Square Punch Bag",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "27524.0",
+      "clip_object": "0.85761",
+      "tex_color_std": "46.654605865478516"
+    },
+    {
+      "uid": "7135f1c2a71a475bb0898fa168bdcd78",
+      "name": "Coffee Bag V5.1",
+      "chunk": "000-002",
+      "license": "by",
+      "n_faces": "49496.0",
+      "clip_object": "0.84125024",
+      "tex_color_std": "26.854307174682617"
+    },
+    {
+      "uid": "f8c69830f0c146c2a66b7c517798fc98",
+      "name": "Louis Vuitton Suitcase",
+      "chunk": "000-002",
+      "license": "by",
+      "n_faces": "12318.0",
+      "clip_object": "0.8312081",
+      "tex_color_std": "21.413206100463867"
+    }
+  ],
+  "statue": [
+    {
+      "uid": "e843fbcdd9f746e2bca65e54f02a1845",
+      "name": "Globe sculpture, San Francisco",
+      "chunk": "000-010",
+      "license": "by",
+      "n_faces": "146640.0",
+      "clip_object": "0.99199563",
+      "tex_color_std": "45.5177116394043"
+    },
+    {
+      "uid": "f85f04f3ac7149ea82b3207088ed7422",
+      "name": "Wood Statue",
+      "chunk": "000-010",
+      "license": "by",
+      "n_faces": "14418.0",
+      "clip_object": "0.9912878",
+      "tex_color_std": "4.551389217376709"
+    },
+    {
+      "uid": "f2656927d6994722bd5a84d364928eb2",
+      "name": "Gaurdian statue",
+      "chunk": "000-005",
+      "license": "by",
+      "n_faces": "6670.0",
+      "clip_object": "0.9764786",
+      "tex_color_std": "14.72619342803955"
+    },
+    {
+      "uid": "6a43dd9a4b094792affc73aecc98b123",
+      "name": "Bryan Cranston (Bust)",
+      "chunk": "000-004",
+      "license": "by",
+      "n_faces": "86064.0",
+      "clip_object": "0.9668765",
+      "tex_color_std": "100.00446319580078"
+    },
+    {
+      "uid": "177eda88702e44838857cc4a7b8a2b1d",
+      "name": "Cat statue in a kennel",
+      "chunk": "000-003",
+      "license": "by",
+      "n_faces": "2092.0",
+      "clip_object": "0.96393704",
+      "tex_color_std": "47.33363723754883"
+    },
+    {
+      "uid": "b53540707ae44cc4835882d025f6d55b",
+      "name": "Statue Hand & Golden Apple",
+      "chunk": "000-006",
+      "license": "by",
+      "n_faces": "2982.0",
+      "clip_object": "0.9630071",
+      "tex_color_std": "58.19199752807617"
+    }
+  ],
+  "instrument": [
+    {
+      "uid": "b3cb7a8487774fc28fa9702f8e36bb9d",
+      "name": "My First 3D Model - Guitar",
+      "chunk": "000-006",
+      "license": "by",
+      "n_faces": "12476.0",
+      "clip_object": "0.99721843",
+      "tex_color_std": "84.58580780029297"
+    },
+    {
+      "uid": "051c3db9337c412e947887477a28bb27",
+      "name": "Heirloom Violin",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "42386.0",
+      "clip_object": "0.99457777",
+      "tex_color_std": "48.557552337646484"
+    },
+    {
+      "uid": "aee101f9685a464a97a5a874d91efee5",
+      "name": "Electric guitar",
+      "chunk": "000-009",
+      "license": "by",
+      "n_faces": "26922.0",
+      "clip_object": "0.9723161",
+      "tex_color_std": "60.46280288696289"
+    },
+    {
+      "uid": "0162dea1b1044cd281c57af5e5fc2046",
+      "name": "Violin",
+      "chunk": "000-000",
+      "license": "by",
+      "n_faces": "74878.0",
+      "clip_object": "0.94863987",
+      "tex_color_std": "49.74271774291992"
+    },
+    {
+      "uid": "6fdfd05ed18c4c8796f54b44e572e873",
+      "name": "Piano",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "3574.0",
+      "clip_object": "0.90634",
+      "tex_color_std": "16.687511444091797"
+    },
+    {
+      "uid": "786cc57117e54794bf32be9a6dbd3643",
+      "name": "violin test",
+      "chunk": "000-001",
+      "license": "by",
+      "n_faces": "16537.0",
+      "clip_object": "0.88821334",
+      "tex_color_std": "29.74550437927246"
+    }
+  ]
+}

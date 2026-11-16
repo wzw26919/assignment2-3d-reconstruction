@@ -1,0 +1,84 @@
+{
+  "uid": "e1b3760e310d4a759cde3146edf40212",
+  "commands": [
+    {
+      "command": [
+        "colmap",
+        "feature_extractor",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/images",
+        "--ImageReader.single_camera",
+        "1",
+        "--ImageReader.camera_model",
+        "PINHOLE",
+        "--SiftExtraction.use_gpu",
+        "0",
+        "--SiftExtraction.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 3.204071842133999
+    },
+    {
+      "command": [
+        "colmap",
+        "exhaustive_matcher",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/database.db",
+        "--SiftMatching.use_gpu",
+        "0",
+        "--SiftMatching.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 7.353030635043979
+    },
+    {
+      "command": [
+        "colmap",
+        "mapper",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/images",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/sparse",
+        "--Mapper.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 0.5354439150542021
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/sparse/0",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/model_text_0",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 0.12032506614923477
+    }
+  ],
+  "matches": {
+    "images": 72,
+    "verified_pairs": 88,
+    "inliers_total": 2277,
+    "pair_count": 2556,
+    "plots": 8
+  },
+  "status": "complete",
+  "registered": 2,
+  "input_images": 72,
+  "registration_ratio": 0.027777777777777776,
+  "model_path": "/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/sfm/sparse/0",
+  "camera_error": {
+    "matched_cameras": 2
+  }
+}

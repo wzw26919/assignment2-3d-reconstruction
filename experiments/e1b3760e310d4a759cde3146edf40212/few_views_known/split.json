@@ -1,0 +1,43 @@
+{
+  "training": [
+    "images/r0_002.png",
+    "images/r0_004.png",
+    "images/r0_008.png",
+    "images/r0_010.png",
+    "images/r0_014.png",
+    "images/r0_016.png",
+    "images/r0_020.png",
+    "images/r0_022.png",
+    "images/r1_002.png",
+    "images/r1_004.png",
+    "images/r1_008.png",
+    "images/r1_010.png",
+    "images/r1_014.png",
+    "images/r1_016.png",
+    "images/r1_020.png",
+    "images/r1_022.png",
+    "images/r2_002.png",
+    "images/r2_004.png",
+    "images/r2_008.png",
+    "images/r2_010.png",
+    "images/r2_014.png",
+    "images/r2_016.png",
+    "images/r2_020.png",
+    "images/r2_022.png"
+  ],
+  "evaluation": [
+    "images/r0_000.png",
+    "images/r0_006.png",
+    "images/r0_012.png",
+    "images/r0_018.png",
+    "images/r1_000.png",
+    "images/r1_006.png",
+    "images/r1_012.png",
+    "images/r1_018.png",
+    "images/r2_000.png",
+    "images/r2_006.png",
+    "images/r2_012.png",
+    "images/r2_018.png"
+  ],
+  "protocol": "Known synthetic camera poses; evaluation RGB excluded from optimization and initialization."
+}

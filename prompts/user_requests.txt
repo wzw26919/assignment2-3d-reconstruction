@@ -1,0 +1,16 @@
+Assignment-specific user requests received in this Codex chat
+
+1. User requested in Chinese: 为我完成作业，之前的数据集在队友的标准储存里。
+   User supplied the dataset location /mnt/afs/260010017/data/objaverse (alternate /afs/260010017/data/objaverse), the glbs/ subdirectory, and a shell probe that reads the first four bytes of a real GLB.
+   The two attached screenshots contain the assignment requirements and a matching/reconstruction example; copies are in references/.
+
+2. In response to the request for the execution environment:
+   用我的sensecore260010097那个
+
+3. In response to the request for group and repository details:
+   做到提交之前就行，我来交
+
+4. Regarding SenseCore authentication:
+   你直接点登录就好
+
+The original opening message is summarized in item 1; subsequent quoted Chinese lines are verbatim user replies. This file is a prompt inventory, not a full chat transcript. Actual process commands are recorded in per-run result.json files and logs. No passwords, private keys, session cookies or authentication tokens are included.

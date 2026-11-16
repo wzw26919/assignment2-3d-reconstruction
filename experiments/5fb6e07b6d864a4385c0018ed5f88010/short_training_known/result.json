@@ -1,0 +1,183 @@
+{
+  "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+  "variant": "short_training",
+  "settings": {
+    "stride": 1,
+    "size": 512,
+    "steps": 3000,
+    "downscales": 0
+  },
+  "pose_mode": "known",
+  "status": "complete",
+  "commands": [
+    {
+      "command": [
+        "ns-train",
+        "splatfacto",
+        "--data",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/processed",
+        "--output-dir",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model",
+        "--experiment-name",
+        "5fb6e07b6d864a4385c0018ed5f88010",
+        "--timestamp",
+        "short_training",
+        "--max-num-iterations",
+        "3000",
+        "--viewer.quit-on-train-completion",
+        "True",
+        "--logging.steps-per-log",
+        "100",
+        "--steps-per-save",
+        "3000",
+        "--logging.relative-log-dir",
+        "/tmp/assignment2-events/5fb6e07b6d864a4385c0018ed5f88010/short_training_known_9089ae98c26c4b15aa5aaeaabadb6e85",
+        "--vis",
+        "tensorboard",
+        "--machine.seed",
+        "42",
+        "--pipeline.model.background-color",
+        "white",
+        "--pipeline.model.random-init",
+        "True",
+        "--pipeline.model.random-scale",
+        "2.0",
+        "--pipeline.model.num-random",
+        "20000",
+        "--pipeline.model.num-downscales",
+        "0",
+        "nerfstudio-data",
+        "--downscale-factor",
+        "1",
+        "--orientation-method",
+        "none",
+        "--center-method",
+        "none",
+        "--auto-scale-poses",
+        "False",
+        "--scene-scale",
+        "2"
+      ],
+      "started_utc": "2026-11-15T14:11:02.739854+00:00",
+      "returncode": 0,
+      "seconds": 41.94609293527901,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/train.log"
+    },
+    {
+      "command": [
+        "ns-eval",
+        "--load-config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model/5fb6e07b6d864a4385c0018ed5f88010/splatfacto/short_training/config.yml",
+        "--output-path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/metrics.json"
+      ],
+      "started_utc": "2026-11-15T14:11:44.824900+00:00",
+      "returncode": 0,
+      "seconds": 11.992613144218922,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/eval.log"
+    },
+    {
+      "command": [
+        "/opt/assignment2-venv/bin/python",
+        "/mnt/afs/260010097/assignment2-reconstruction/scripts/evaluate_foreground.py",
+        "--config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model/5fb6e07b6d864a4385c0018ed5f88010/splatfacto/short_training/config.yml",
+        "--out",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/evaluation",
+        "--reference-capture",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/capture_512"
+      ],
+      "started_utc": "2026-11-15T14:11:56.817668+00:00",
+      "returncode": 0,
+      "seconds": 12.068345569074154,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/foreground_eval.log"
+    },
+    {
+      "command": [
+        "ns-render",
+        "camera-path",
+        "--load-config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model/5fb6e07b6d864a4385c0018ed5f88010/splatfacto/short_training/config.yml",
+        "--camera-path-filename",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/camera_path.json",
+        "--output-path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.mp4"
+      ],
+      "started_utc": "2026-11-15T14:12:08.920010+00:00",
+      "returncode": 0,
+      "seconds": 15.420080749318004,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/render.log"
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-y",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.mp4",
+        "-vf",
+        "fps=15,scale=480:-1:flags=lanczos,palettegen",
+        "-frames:v",
+        "1",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.palette.png"
+      ],
+      "started_utc": "2026-11-15T14:12:24.340222+00:00",
+      "returncode": 0,
+      "seconds": 0.4665127545595169,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/palette.log"
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-y",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.mp4",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.palette.png",
+        "-lavfi",
+        "fps=15,scale=480:-1:flags=lanczos[x];[x][1:v]paletteuse",
+        "-loop",
+        "0",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/reconstruction.gif"
+      ],
+      "started_utc": "2026-11-15T14:12:24.806787+00:00",
+      "returncode": 0,
+      "seconds": 0.9396502375602722,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/logs/gif.log"
+    }
+  ],
+  "glb": {
+    "path": "/mnt/afs/260010017/data/objaverse/glbs/000-006/5fb6e07b6d864a4385c0018ed5f88010.glb",
+    "magic": "glTF",
+    "version": 2,
+    "bytes": 4653380
+  },
+  "source_sha256": "a8440567dd703fc5384e3dd9e7cddbd3e1d51da18b2ae127018e0f8d21f9cefc",
+  "matches": {
+    "images": 72,
+    "verified_pairs": 600,
+    "inliers_total": 31121,
+    "pair_count": 2556,
+    "plots": 8
+  },
+  "sfm_cache": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/sfm/result.json",
+  "training_images": 60,
+  "evaluation_images": 12,
+  "config": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model/5fb6e07b6d864a4385c0018ed5f88010/splatfacto/short_training/config.yml",
+  "metrics": {
+    "experiment_name": "5fb6e07b6d864a4385c0018ed5f88010",
+    "method_name": "splatfacto",
+    "checkpoint": "/mnt/afs/260010097/assignment2-reconstruction/runs/5fb6e07b6d864a4385c0018ed5f88010/short_training_known/model/5fb6e07b6d864a4385c0018ed5f88010/splatfacto/short_training/nerfstudio_models/step-000002999.ckpt",
+    "results": {
+      "psnr": 30.513933181762695,
+      "psnr_std": 3.2271065711975098,
+      "ssim": 0.9600806832313538,
+      "ssim_std": 0.004857535939663649,
+      "lpips": 0.0931742936372757,
+      "lpips_std": 0.02208850346505642,
+      "num_rays_per_sec": 64832344.0,
+      "num_rays_per_sec_std": 21303120.0,
+      "fps": 247.31576538085938,
+      "fps_std": 81.26495361328125
+    }
+  }
+}

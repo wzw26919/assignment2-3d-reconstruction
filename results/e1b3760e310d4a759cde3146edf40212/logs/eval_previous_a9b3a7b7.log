@@ -1,0 +1,35 @@
+/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/field_components/activations.py:32: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float32)
+/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/field_components/activations.py:38: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  @custom_bwd
+[13:46:05]  Dataset is overriding train_indices to [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, nerfstudio_dataparser.py:203
+           15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38,                              
+           39, 40, 41, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 55, 56, 57, 58, 59, 61, 62,                              
+           63, 64, 65, 67, 68, 69, 70, 71]                                                                              
+Warning: load_3D_points set to true but no point cloud found. splatfacto will use random point cloud initialization.
+            Dataset is overriding test_indices to [0, 6, 12, 18, 24, 30, 36, 42, 48, 54,    nerfstudio_dataparser.py:203
+           60, 66]                                                                                                      
+Loading latest checkpoint from load_dir
+Traceback (most recent call last):
+  File "/opt/assignment2-venv/bin/ns-eval", line 8, in <module>
+    sys.exit(entrypoint())
+             ^^^^^^^^^^^^
+  File "/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/scripts/eval.py", line 67, in entrypoint
+    tyro.cli(ComputePSNR).main()
+  File "/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/scripts/eval.py", line 46, in main
+    config, pipeline, checkpoint_path, _ = eval_setup(self.load_config)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/utils/eval_utils.py", line 111, in eval_setup
+    checkpoint_path, step = eval_load_checkpoint(config, pipeline)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/utils/eval_utils.py", line 62, in eval_load_checkpoint
+    loaded_state = torch.load(load_path, map_location="cpu")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/serialization.py", line 1524, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

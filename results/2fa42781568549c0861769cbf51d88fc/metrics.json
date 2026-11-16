@@ -1,0 +1,17 @@
+{
+  "experiment_name": "2fa42781568549c0861769cbf51d88fc",
+  "method_name": "splatfacto",
+  "checkpoint": "/mnt/afs/260010097/assignment2-reconstruction/runs/2fa42781568549c0861769cbf51d88fc/baseline_known/model/2fa42781568549c0861769cbf51d88fc/splatfacto/baseline/nerfstudio_models/step-000014999.ckpt",
+  "results": {
+    "psnr": 38.014183044433594,
+    "psnr_std": 1.2855170965194702,
+    "ssim": 0.9863055944442749,
+    "ssim_std": 0.0034238689113408327,
+    "lpips": 0.010434861294925213,
+    "lpips_std": 0.0020882494281977415,
+    "num_rays_per_sec": 59999996.0,
+    "num_rays_per_sec_std": 19589590.0,
+    "fps": 228.88182067871094,
+    "fps_std": 74.72835540771484
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "uid": "873be92fc3a54d65bac955231029589b",
+  "commands": [
+    {
+      "command": [
+        "colmap",
+        "feature_extractor",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/images",
+        "--ImageReader.single_camera",
+        "1",
+        "--ImageReader.camera_model",
+        "PINHOLE",
+        "--SiftExtraction.use_gpu",
+        "0",
+        "--SiftExtraction.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 23.438003551214933
+    },
+    {
+      "command": [
+        "colmap",
+        "exhaustive_matcher",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/database.db",
+        "--SiftMatching.use_gpu",
+        "0",
+        "--SiftMatching.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 135.01712840236723
+    },
+    {
+      "command": [
+        "colmap",
+        "mapper",
+        "--database_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/database.db",
+        "--image_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/images",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/sparse",
+        "--Mapper.num_threads",
+        "6"
+      ],
+      "returncode": 0,
+      "seconds": 309.30396690033376
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/sparse/0",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/model_text_0",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 1.9787777420133352
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/sparse/1",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/model_text_1",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 7.0352246798574924
+    },
+    {
+      "command": [
+        "colmap",
+        "model_converter",
+        "--input_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/sparse/2",
+        "--output_path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/model_text_2",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "seconds": 14.099169380962849
+    }
+  ],
+  "matches": {
+    "images": 72,
+    "verified_pairs": 1767,
+    "inliers_total": 426912,
+    "pair_count": 2556,
+    "plots": 8
+  },
+  "status": "complete",
+  "registered": 72,
+  "input_images": 72,
+  "registration_ratio": 1.0,
+  "model_path": "/mnt/afs/260010097/assignment2-reconstruction/runs/873be92fc3a54d65bac955231029589b/sfm/sparse/2",
+  "camera_error": {
+    "matched_cameras": 72,
+    "center_rmse": 2.5582347016013878,
+    "center_median": 1.739376495844283,
+    "rotation_median_degrees": 32.17271354560437,
+    "alignment_scale": 0.7727880079173534,
+    "alignment_rotation": [
+      [
+        -0.913854936595403,
+        -0.18722127774477,
+        -0.36030174579070207
+      ],
+      [
+        0.3150315388153508,
+        0.23290975183063478,
+        -0.9200587899986743
+      ],
+      [
+        0.2561723724601154,
+        -0.9543066806125835,
+        -0.15386511926472418
+      ]
+    ],
+    "alignment_translation": [
+      0.20743704842211408,
+      0.12644250018498213,
+      0.861668612359374
+    ],
+    "units": "Capture coordinates: source mesh longest side is 2 units."
+  }
+}

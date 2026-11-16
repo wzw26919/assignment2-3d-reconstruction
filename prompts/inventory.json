@@ -1,0 +1,6 @@
+{
+  "reconstruction_model_prompts": [],
+  "image_generation_prompts": [],
+  "explanation": "Blender produces calibrated input views from course GLBs. COLMAP and Splatfacto use numerical optimization, not text prompts. Codex was used interactively for implementation; chat_messages.json is an actual export of visible assignment messages including the original full user request and subsequent replies. Per-run result.json files retain actual execution commands. This inventory is not a full tool transcript or a replacement for a separately required complete Codex conversation export.",
+  "ai_assistance": "Pipeline implementation, setup, tests, documentation and tool operation by Codex."
+}

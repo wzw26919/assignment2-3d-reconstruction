@@ -1,0 +1,17 @@
+/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/field_components/activations.py:32: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float32)
+/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/field_components/activations.py:38: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  @custom_bwd
+[14:06:56]  Dataset is overriding train_indices to [1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16,   nerfstudio_dataparser.py:203
+           17, 19, 20, 22, 23, 25, 26, 28, 29, 31, 32, 34, 35]                                                          
+Warning: load_3D_points set to true but no point cloud found. splatfacto will use random point cloud initialization.
+            Dataset is overriding test_indices to [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30,  nerfstudio_dataparser.py:203
+           33]                                                                                                          
+/opt/assignment2-venv/lib/python3.12/site-packages/torchmetrics/functional/image/lpips.py:332: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  self.load_state_dict(torch.load(model_path, map_location="cpu"), strict=False)
+Loading latest checkpoint from load_dir
+/opt/assignment2-venv/lib/python3.12/site-packages/nerfstudio/utils/eval_utils.py:62: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  loaded_state = torch.load(load_path, map_location="cpu")
+✅ Done loading checkpoint from 
+/mnt/afs/260010097/assignment2-reconstruction/runs/e1b3760e310d4a759cde3146edf40212/few_views_known/model/e1b3760e310d4a
+759cde3146edf40212/splatfacto/few_views/nerfstudio_models/step-000014999.ckpt

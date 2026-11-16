@@ -1,0 +1,65 @@
+[
+  {
+    "uid": "e1b3760e310d4a759cde3146edf40212",
+    "variant": "few_views",
+    "reference_foreground_psnr": 33.33716374360184,
+    "variant_foreground_psnr": 28.37150624287807,
+    "delta_db": -4.965657500723772
+  },
+  {
+    "uid": "2fa42781568549c0861769cbf51d88fc",
+    "variant": "few_views",
+    "reference_foreground_psnr": 30.648486832045915,
+    "variant_foreground_psnr": 26.15202120579468,
+    "delta_db": -4.496465626251236
+  },
+  {
+    "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+    "variant": "few_views",
+    "reference_foreground_psnr": 27.721380248767492,
+    "variant_foreground_psnr": 22.122397067029848,
+    "delta_db": -5.598983181737644
+  },
+  {
+    "uid": "e1b3760e310d4a759cde3146edf40212",
+    "variant": "low_resolution",
+    "reference_foreground_psnr": 33.33716374360184,
+    "variant_foreground_psnr": 30.081272906528856,
+    "delta_db": -3.255890837072986
+  },
+  {
+    "uid": "2fa42781568549c0861769cbf51d88fc",
+    "variant": "low_resolution",
+    "reference_foreground_psnr": 30.648486832045915,
+    "variant_foreground_psnr": 25.982951191865585,
+    "delta_db": -4.66553564018033
+  },
+  {
+    "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+    "variant": "low_resolution",
+    "reference_foreground_psnr": 27.721380248767492,
+    "variant_foreground_psnr": 28.043662977858816,
+    "delta_db": 0.3222827290913237
+  },
+  {
+    "uid": "e1b3760e310d4a759cde3146edf40212",
+    "variant": "short_training",
+    "reference_foreground_psnr": 33.33716374360184,
+    "variant_foreground_psnr": 31.71114470342623,
+    "delta_db": -1.6260190401756134
+  },
+  {
+    "uid": "2fa42781568549c0861769cbf51d88fc",
+    "variant": "short_training",
+    "reference_foreground_psnr": 30.648486832045915,
+    "variant_foreground_psnr": 29.32405615414733,
+    "delta_db": -1.3244306778985866
+  },
+  {
+    "uid": "5fb6e07b6d864a4385c0018ed5f88010",
+    "variant": "short_training",
+    "reference_foreground_psnr": 27.721380248767492,
+    "variant_foreground_psnr": 22.926961440979824,
+    "delta_db": -4.794418807787668
+  }
+]

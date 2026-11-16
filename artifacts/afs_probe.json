@@ -1,0 +1,12 @@
+{
+  "status": "readable",
+  "root": "/mnt/afs/260010017/data/objaverse/glbs",
+  "sample": {
+    "path": "/mnt/afs/260010017/data/objaverse/glbs/000-000/000074a334c541878360457c672b6c2e.glb",
+    "magic": "glTF",
+    "version": 2,
+    "bytes": 3531612
+  },
+  "uid": 0,
+  "attempts": []
+}

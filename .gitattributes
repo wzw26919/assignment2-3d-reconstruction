@@ -1,0 +1,2 @@
+# Preserve exact exported bytes so SHA256SUMS.txt also verifies a Git checkout.
+* -text

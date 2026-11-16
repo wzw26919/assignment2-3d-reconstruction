@@ -1,0 +1,13 @@
+Official template: ICLR/Master-Template, iclr2027 directory
+https://github.com/ICLR/Master-Template/tree/master/iclr2027
+Downloaded 2026-11-16 from the repository's raw GitHub URLs.
+
+The official iclr2027_conference.sty, iclr2027_conference.bst, fancyhdr.sty,
+and natbib.sty are retained unchanged. report_body.tex is coursework content.
+The document uses final (named-author) mode, then replaces the publication
+header with the course assignment title. It makes no ICLR publication claim.
+
+Build from the repository root:
+  python scripts/build_iclr_report.py --tectonic /path/to/tectonic
+Or compile docs/latex/report.tex with a standard LaTeX distribution.
+The four submission metadata fields remain editable in the generated PDF.

@@ -1,0 +1,3 @@
+# Lightweight tooling; install training separately in an isolated environment.
+numpy>=1.26,<2
+Pillow>=10,<12

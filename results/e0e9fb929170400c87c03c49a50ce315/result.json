@@ -1,0 +1,183 @@
+{
+  "uid": "e0e9fb929170400c87c03c49a50ce315",
+  "variant": "baseline",
+  "settings": {
+    "stride": 1,
+    "size": 512,
+    "steps": 15000,
+    "downscales": 2
+  },
+  "pose_mode": "known",
+  "status": "complete",
+  "commands": [
+    {
+      "command": [
+        "ns-train",
+        "splatfacto",
+        "--data",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/processed",
+        "--output-dir",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model",
+        "--experiment-name",
+        "e0e9fb929170400c87c03c49a50ce315",
+        "--timestamp",
+        "baseline",
+        "--max-num-iterations",
+        "15000",
+        "--viewer.quit-on-train-completion",
+        "True",
+        "--logging.steps-per-log",
+        "100",
+        "--steps-per-save",
+        "15000",
+        "--logging.relative-log-dir",
+        "/tmp/assignment2-events/e0e9fb929170400c87c03c49a50ce315/baseline_known_561623d298c14847989b60b809ac5e66",
+        "--vis",
+        "tensorboard",
+        "--machine.seed",
+        "42",
+        "--pipeline.model.background-color",
+        "white",
+        "--pipeline.model.random-init",
+        "True",
+        "--pipeline.model.random-scale",
+        "2.0",
+        "--pipeline.model.num-random",
+        "20000",
+        "--pipeline.model.num-downscales",
+        "2",
+        "nerfstudio-data",
+        "--downscale-factor",
+        "1",
+        "--orientation-method",
+        "none",
+        "--center-method",
+        "none",
+        "--auto-scale-poses",
+        "False",
+        "--scene-scale",
+        "2"
+      ],
+      "started_utc": "2026-11-15T13:56:25.256594+00:00",
+      "returncode": 0,
+      "seconds": 183.8236214928329,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/train.log"
+    },
+    {
+      "command": [
+        "ns-eval",
+        "--load-config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model/e0e9fb929170400c87c03c49a50ce315/splatfacto/baseline/config.yml",
+        "--output-path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/metrics.json"
+      ],
+      "started_utc": "2026-11-15T13:59:29.558516+00:00",
+      "returncode": 0,
+      "seconds": 12.071130411699414,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/eval.log"
+    },
+    {
+      "command": [
+        "/opt/assignment2-venv/bin/python",
+        "/mnt/afs/260010097/assignment2-reconstruction/scripts/evaluate_foreground.py",
+        "--config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model/e0e9fb929170400c87c03c49a50ce315/splatfacto/baseline/config.yml",
+        "--out",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/evaluation",
+        "--reference-capture",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/capture_512"
+      ],
+      "started_utc": "2026-11-15T13:59:41.629751+00:00",
+      "returncode": 0,
+      "seconds": 11.6088788472116,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/foreground_eval.log"
+    },
+    {
+      "command": [
+        "ns-render",
+        "camera-path",
+        "--load-config",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model/e0e9fb929170400c87c03c49a50ce315/splatfacto/baseline/config.yml",
+        "--camera-path-filename",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/camera_path.json",
+        "--output-path",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.mp4"
+      ],
+      "started_utc": "2026-11-15T13:59:53.279495+00:00",
+      "returncode": 0,
+      "seconds": 14.260580645874143,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/render.log"
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-y",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.mp4",
+        "-vf",
+        "fps=15,scale=480:-1:flags=lanczos,palettegen",
+        "-frames:v",
+        "1",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.palette.png"
+      ],
+      "started_utc": "2026-11-15T14:00:07.540187+00:00",
+      "returncode": 0,
+      "seconds": 0.3103155791759491,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/palette.log"
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-y",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.mp4",
+        "-i",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.palette.png",
+        "-lavfi",
+        "fps=15,scale=480:-1:flags=lanczos[x];[x][1:v]paletteuse",
+        "-loop",
+        "0",
+        "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/reconstruction.gif"
+      ],
+      "started_utc": "2026-11-15T14:00:07.850554+00:00",
+      "returncode": 0,
+      "seconds": 0.6933624427765608,
+      "log": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/logs/gif.log"
+    }
+  ],
+  "glb": {
+    "path": "/mnt/afs/260010017/data/objaverse/glbs/000-006/e0e9fb929170400c87c03c49a50ce315.glb",
+    "magic": "glTF",
+    "version": 2,
+    "bytes": 1873196
+  },
+  "source_sha256": "402451d9864d001b20e1a88ef7ac20079d3290fd80548f30105a88577e19b9cd",
+  "matches": {
+    "images": 72,
+    "verified_pairs": 94,
+    "inliers_total": 5336,
+    "pair_count": 2556,
+    "plots": 8
+  },
+  "sfm_cache": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/sfm/result.json",
+  "training_images": 60,
+  "evaluation_images": 12,
+  "config": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model/e0e9fb929170400c87c03c49a50ce315/splatfacto/baseline/config.yml",
+  "metrics": {
+    "experiment_name": "e0e9fb929170400c87c03c49a50ce315",
+    "method_name": "splatfacto",
+    "checkpoint": "/mnt/afs/260010097/assignment2-reconstruction/runs/e0e9fb929170400c87c03c49a50ce315/baseline_known/model/e0e9fb929170400c87c03c49a50ce315/splatfacto/baseline/nerfstudio_models/step-000014999.ckpt",
+    "results": {
+      "psnr": 33.93446731567383,
+      "psnr_std": 3.399779796600342,
+      "ssim": 0.9468214511871338,
+      "ssim_std": 0.013600116595625877,
+      "lpips": 0.045775800943374634,
+      "lpips_std": 0.008643979206681252,
+      "num_rays_per_sec": 43387176.0,
+      "num_rays_per_sec_std": 14782143.0,
+      "fps": 165.50894165039062,
+      "fps_std": 56.389400482177734
+    }
+  }
+}

@@ -1,0 +1,13 @@
+I20261115 13:28:34.124330 26894 misc.cc:198] 
+==============================================================================
+Exhaustive feature matching
+==============================================================================
+I20261115 13:28:34.217291 26894 feature_matching.cc:231] Matching block [1/2, 1/2]
+I20261115 13:28:35.830300 26894 feature_matching.cc:46]  in 1.613s
+I20261115 13:28:35.907684 26894 feature_matching.cc:231] Matching block [1/2, 2/2]
+I20261115 13:28:36.236053 26894 feature_matching.cc:46]  in 0.328s
+I20261115 13:28:36.258534 26894 feature_matching.cc:231] Matching block [2/2, 1/2]
+I20261115 13:28:37.390571 26894 feature_matching.cc:46]  in 1.132s
+I20261115 13:28:37.437880 26894 feature_matching.cc:231] Matching block [2/2, 2/2]
+I20261115 13:28:37.747478 26894 feature_matching.cc:46]  in 0.310s
+I20261115 13:28:37.788582 26894 timer.cc:91] Elapsed time: 0.061 [minutes]

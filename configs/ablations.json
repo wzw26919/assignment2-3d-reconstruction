@@ -1,0 +1,8 @@
+{
+  "selection_time": "Before seeing reconstruction scores",
+  "selection_reason": "Three fixed objects spanning a weakly textured chair, a detailed vehicle and a rounded food object",
+  "uids": ["e1b3760e310d4a759cde3146edf40212", "2fa42781568549c0861769cbf51d88fc", "5fb6e07b6d864a4385c0018ed5f88010"],
+  "reference_variant": "fixed_resolution",
+  "reference_reason": "Disable Splatfacto's default progressive resolution so training-duration effects are not confounded by image resolution",
+  "variants": ["few_views", "low_resolution", "short_training"]
+}
